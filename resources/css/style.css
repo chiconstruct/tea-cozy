@@ -12,6 +12,11 @@ body {
   text-align: center;
 }
 
+/* General styling */
+.lineHeight50 {
+  line-height: 50px;
+}
+
 /* Styling for HEADER */
 header {
   height: 69px;
@@ -66,6 +71,29 @@ div.contentContainer #mission {
   top: 50%;
   transform: translateY(-50%);
   background-color: black;
+}
+
+/* Styling for Mission Section */
+#featured {
+  margin-top: 80px;
   text-align: center;
-  line-height: 50px;
+}
+
+#featured .imageContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#featured .imageContainer figure {
+  padding: 15px;
+}
+
+#featured .imageContainer figure img {
+  width: 300px;
+  height: 200px;
+}
+
+#featured .imageContainer figure h4 {
+  padding-top: 10px;
 }
