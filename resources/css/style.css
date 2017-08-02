@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Styling for HEADER */
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  background-color: black;
+  z-index: 10;
+}
+
+header div.logoContainer {
+  margin-left: 10px;
+}
+
+header div.logoContainer img {
+  height: 50px;
+}
+
+div.navigationBar span {
+  margin: 0 10px;
+}
+
+div.navigationBar span a {
+  color: white;
+}
+
+/* Styling for Mission Section */
+div.contentContainer {
+  padding-top: 69px;
+}
+
+div.contentContainer #mission {
+  height: 700px;
+  margin: 0 50px;
+  position: relative;
+}
+
+#mission .background {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: url(../images/img-mission-background.jpg);
+  position: absolute;
+  z-index: -1;
+}
+
+#mission .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
